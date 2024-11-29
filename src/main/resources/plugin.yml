@@ -1,0 +1,35 @@
+name: NoOPVanilla
+version: '${version}'
+main: st.datho.janshhhh.noOPVanillaBukkit.NoOPVanillaBukkit
+api-version: '1.20'
+description: Allows non-op players to teleport and set time and weather.
+commands:
+  mytp:
+    description: Teleport to specified coordinates or player.
+    usage: /mytp <x> <y> <z> or /mytp <player>
+    permission: noopvanilla.teleport
+  mytime:
+    description: Set the time of day.
+    usage: /mytime <day|noon|night|midnight|<ticks>>
+    permission: noopvanilla.settime
+  myweather:
+    description: Set the weather.
+    usage: /myweather <clear|rain|thunder>
+    permission: noopvanilla.setweather
+  NoOPHelp:
+    description: Display a list of all NoOPVanilla commands.
+    usage: /NoOPHelp
+    permission: noopvanilla.help
+permissions:
+  noopvanilla.teleport:
+    description: Allows use of the /mytp command.
+    default: true
+  noopvanilla.settime:
+    description: Allows use of the /mytime command.
+    default: true
+  noopvanilla.setweather:
+    description: Allows use of the /myweather command.
+    default: true
+  noopvanilla.help:
+    description: Allows use of the /NoOPHelp command.
+    default: true
