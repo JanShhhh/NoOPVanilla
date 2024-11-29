@@ -1,4 +1,4 @@
-package st.datho.janshhhh.noOPVanillaBukkit.Commands;
+package janshhhh.noOPVanillaBukkit.Commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

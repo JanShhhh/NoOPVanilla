@@ -1,13 +1,13 @@
-package st.datho.janshhhh.noOPVanillaBukkit;
+package janshhhh.noOPVanillaBukkit;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import st.datho.janshhhh.noOPVanillaBukkit.Commands.TeleportCommand;
-import st.datho.janshhhh.noOPVanillaBukkit.Commands.TimeCommand;
-import st.datho.janshhhh.noOPVanillaBukkit.Commands.WeatherCommand;
-import st.datho.janshhhh.noOPVanillaBukkit.Commands.HelpCommand;
-import st.datho.janshhhh.noOPVanillaBukkit.EventHandler.TeleportCatchExecuteIn;
-import st.datho.janshhhh.noOPVanillaBukkit.Commands.TimeCommandTabCompleter;
-import st.datho.janshhhh.noOPVanillaBukkit.Commands.WeatherCommandTabCompleter;
+import janshhhh.noOPVanillaBukkit.Commands.TeleportCommand;
+import janshhhh.noOPVanillaBukkit.Commands.TimeCommand;
+import janshhhh.noOPVanillaBukkit.Commands.WeatherCommand;
+import janshhhh.noOPVanillaBukkit.Commands.HelpCommand;
+import janshhhh.noOPVanillaBukkit.EventHandler.TeleportCatchExecuteIn;
+import janshhhh.noOPVanillaBukkit.Commands.TimeCommandTabCompleter;
+import janshhhh.noOPVanillaBukkit.Commands.WeatherCommandTabCompleter;
 
 public final class NoOPVanillaBukkit extends JavaPlugin {
 

@@ -1,6 +1,6 @@
 name: NoOPVanilla
 version: '${version}'
-main: st.datho.janshhhh.noOPVanillaBukkit.NoOPVanillaBukkit
+main: janshhhh.noOPVanillaBukkit.NoOPVanillaBukkit
 api-version: '1.20'
 description: Allows non-op players to teleport and set time and weather.
 commands:

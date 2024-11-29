@@ -1,4 +1,4 @@
-package st.datho.janshhhh.noOPVanillaBukkit.EventHandler;
+package janshhhh.noOPVanillaBukkit.EventHandler;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

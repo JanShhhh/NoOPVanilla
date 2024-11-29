@@ -1,4 +1,4 @@
-package st.datho.janshhhh.noOPVanillaBukkit.Commands;
+package janshhhh.noOPVanillaBukkit.Commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class WeatherCommandTabCompleter implements TabCompleter {
+public class TimeCommandTabCompleter implements TabCompleter {
 
-    private static final List<String> WEATHER_OPTIONS = Arrays.asList("clear", "rain", "thunder");
+    private static final List<String> TIME_OPTIONS = Arrays.asList("day", "noon", "night", "midnight");
 
     @Override
     public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
@@ -19,7 +19,7 @@ public class WeatherCommandTabCompleter implements TabCompleter {
             List<String> completions = new ArrayList<>();
             String partialInput = args[0].toLowerCase();
 
-            for (String option : WEATHER_OPTIONS) {
+            for (String option : TIME_OPTIONS) {
                 if (option.startsWith(partialInput)) {
                     completions.add(option);
                 }
